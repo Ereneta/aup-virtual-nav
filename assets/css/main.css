@@ -26,6 +26,10 @@ nav ul a, nav h1 {
     align-self: center;
 }
 
+nav img {
+    margin-right: 15px;
+}
+
 /* Banner styles */
 #banner {
     width: 100%;
