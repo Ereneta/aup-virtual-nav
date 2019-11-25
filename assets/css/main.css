@@ -1,6 +1,7 @@
 /* Body and html styles */
 html, body {
     margin: 0px 0px 0px 0px;
+    font-family: 'Red Hat Text', sans-serif;
 }
 /* Nav bar */
 nav {
@@ -8,7 +9,7 @@ nav {
     width: 100%;
     background-color: gray;
     position: fixed;
-    opacity: 0.5;
+    opacity: 0.75;
     display: flex;
     flex-direction: row;
     color: white;
@@ -46,32 +47,64 @@ nav img {
     height: 600px;
     background-color: #143E90;
     display: flex;
-    position: absolute;
-    margin-top: 75px;
-    
+    position: relative;
+    flex-direction: row;
 }
 
 #banner img {
     width: auto;
     height: 100%;
-    position: relative;
+    position: absolute;
     left: 50%;
 }    
+
+#banner h2 {
+    align-self: center;
+    margin-left: 10%;
+    font-size: 4rem;
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 100;
+}
 
 /* Introduction styles */
 #intro {
     width: 100%;
-    height: 600px;
-    background-color: orange;
+    height: auto;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
 
+#intro h2 {
+    color: goldenrod;
+    font-size: 2.5rem;
+}
 
+#intro p {
+    font-size: 1.5rem;
+}
+
+#intro div {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Features styles */
 #service-header {
     width: 100%;
     height: 125px;
-    background-color: green;
+    background-color: gainsboro;
+    padding: 15px 15px 15px 15px;
+}
+
+#service-header h2 {
+    margin-top: 0px;
+    color: #433f40;
+    font-size: 1.75rem;
+    font-weight: bolder;
 }
 
 #header-1 {
