@@ -95,7 +95,7 @@ nav img {
 /* Features styles */
 #service-header {
     width: 100%;
-    height: 125px;
+    height: auto;
     background-color: gainsboro;
     padding: 15px 15px 15px 15px;
 }
@@ -105,18 +105,43 @@ nav img {
     color: #433f40;
     font-size: 1.75rem;
     font-weight: bolder;
+    text-align: center;
 }
 
 #header-1 {
     width: 100%;
-    height: 300px;
-    background-color: gray;
+    height: auto;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+#header-1 .feature-box{
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    margin-right: 15px;
+    border-radius: 20px;
+    
 }
 
 #header-2 {
     width: 100%;
-    height: 300px;
-    background-color: black;
+    height: auto;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 25px 0px;
+}
+
+#header-2 .feature-box {
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    margin-right: 15px;
+    border-radius: 20px;
+    margin-top: 50px;
+    
 }
 
 /* Get app styles */
