@@ -10,7 +10,20 @@ nav {
     position: fixed;
     opacity: 0.5;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    color: white;
+    padding: 0px 15px 0px 15px;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul a, nav h1 {
+    list-style-type: none;
+    margin-right: 50px;
+    align-self: center;
 }
 
 /* Banner styles */
