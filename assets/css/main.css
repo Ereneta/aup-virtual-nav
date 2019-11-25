@@ -147,19 +147,33 @@ nav img {
 /* Get app styles */
 #app-grab-header {
     width: 100%;
-    height: 50px;
-    background-color: white;
+    height: auto;
+    background-color: gainsboro;
+    padding: 15px;
+    text-align: center;
+}
+
+#app-grab-header h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #433f40;
 }
 
 #app-grab {
     width: 100%;
     height: 100px;
-    background-color: greenyellow;
+    background-color: gainsboro;
+    padding: 15px;
+    text-align: center;
+}
+
+#app-grab p {
+    margin-top: 0;
 }
 
 /* Footer styles */
 footer {
     width: 100%;
     height: 100px;
-    background-color: white;
+    background-color: whitesmoke;
 }
