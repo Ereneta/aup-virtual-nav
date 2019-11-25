@@ -15,9 +15,18 @@ nav {
     padding: 0px 15px 0px 15px;
 }
 
+#nav-a {
+    display: flex;
+    width: 79%;
+}
+
+#nav-b {
+    display: flex;
+}
+
 nav ul {
     display: flex;
-    
+    flex-direction: row;
 }
 
 nav ul a, nav h1 {
