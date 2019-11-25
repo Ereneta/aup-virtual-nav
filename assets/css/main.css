@@ -9,6 +9,8 @@ nav {
     background-color: gray;
     position: fixed;
     opacity: 0.5;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Banner styles */
