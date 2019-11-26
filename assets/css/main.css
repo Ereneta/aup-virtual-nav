@@ -2,6 +2,7 @@
 html, body {
     margin: 0px 0px 0px 0px;
     font-family: 'Red Hat Text', sans-serif;
+    overflow-x: hidden;
 }
 /* Nav bar */
 nav {
