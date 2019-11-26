@@ -42,6 +42,12 @@ nav img {
     margin-right: 15px;
 }
 
+nav a {
+    align-self: center;
+    color: white;
+    text-decoration: none;
+}
+
 /* Banner styles */
 #banner {
     width: 100%;
@@ -183,4 +189,18 @@ footer {
 
 footer > div {
     margin-right: 5%;
+}
+
+/* About page styles */
+
+/* About page banner styles */
+#about-banner {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 75px;
+    background-image: url("/assets/img/about-banner-opt.jpg");
+    background-size: cover;
+
 }
