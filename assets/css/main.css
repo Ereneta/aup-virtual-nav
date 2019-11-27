@@ -89,11 +89,12 @@ nav a {
 /* Introduction styles */
 #intro {
     width: 100%;
-    height: auto;
+    height: 550px;
     background-color: whitesmoke;
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 15px 0px 15px 0px;
+    display: flex;
 }
 
 #intro h2 {
@@ -107,8 +108,13 @@ nav a {
 
 #intro div {
     width: 30%;
+    margin-left: 13%;
+}
+
+#intro img {
+    height: 100%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 13%;
 }
 
 /* Features styles */
@@ -242,7 +248,7 @@ footer > div {
     justify-content: center;
     margin: 0px;
     align-items: center;
-    height: 100%;;
+    height: 100%;
 
 }
 
@@ -266,7 +272,7 @@ footer > div {
 
 
 /* Developer profile styles */
-#dev-header {
+#dev-header, #team-header, #project-header {
     height: 10vh;
     width: 100%;
     background-color: #fff;
@@ -275,7 +281,7 @@ footer > div {
 
 }
 
-#dev-header h2 {
+#dev-header h2, #team-header h2, #project-header h2 {
     font-size: 3rem;
     
 }
@@ -348,6 +354,17 @@ footer > div {
 .social-media-img {
     height: 100%;
     margin-right: 15px;
+}
+
+/* Team description styles */
+.description {
+    width: 75%;
+    padding-left: 14%;
+    margin-bottom: 5%;
+}
+
+.description p {
+    font-size: 1.5rem;
 }
 
 
