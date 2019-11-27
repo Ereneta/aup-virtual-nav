@@ -8,7 +8,7 @@ html, body {
 nav {
     height: 75px;
     width: 100%;
-    background-color: gray;
+    background-color: goldenrod;
     position: fixed;
     opacity: 0.75;
     display: flex;
@@ -98,7 +98,7 @@ nav a {
 
 #intro h2 {
     color: goldenrod;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 #intro p {
@@ -228,12 +228,58 @@ footer > div {
 
 }
 
-/* Developer profile styles */
-#devs-header {
+/* About page menu styles */
+#about-menu {
     width: 100%;
     height: 10vh;
     background-color: black;
+
 }
+
+#about-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    align-items: center;
+    height: 100%;;
+
+}
+
+#about-menu ul a {
+    text-decoration: none;
+    color: white;
+    margin: 2.5%;
+}
+
+.anchor a {
+    position: absolute;
+    left: 0px;
+    top: -115px;
+}
+
+.anchor {
+    position: relative;
+}
+
+
+
+
+/* Developer profile styles */
+#dev-header {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    color: goldenrod;
+    padding-left: 14%;
+
+}
+
+#dev-header h2 {
+    font-size: 3rem;
+    
+}
+
 
 .dev-row {
     width: 100%;
