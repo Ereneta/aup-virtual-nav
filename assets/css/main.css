@@ -55,7 +55,9 @@ nav a {
     background-color: #143E90;
     display: flex;
     position: relative;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 #banner img {
@@ -66,12 +68,22 @@ nav a {
 }    
 
 #banner h2 {
-    align-self: center;
     margin-left: 10%;
-    font-size: 4rem;
     color: white;
     font-family: 'Red Hat Text', sans-serif;
-    font-weight: 100;
+}
+
+#first-text-header {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 5rem;
+    
+}
+
+#second-text-header {
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 4rem;
 }
 
 /* Introduction styles */
@@ -202,5 +214,99 @@ footer > div {
     margin-top: 75px;
     background-image: url("/assets/img/about-banner-opt.jpg");
     background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
+
+#about-banner h2 {
+    align-self: center;
+    font-size: 5rem;
+    color: white;
+
+}
+
+/* Developer profile styles */
+#devs-header {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+.dev-row {
+    width: 100%;
+    height: 350px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px 0px;
+}
+
+.dev-profile {
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    box-sizing: border-box;
+    overflow: auto;
+
+    
+}
+
+
+
+.prof-img-container {
+    width: 25%;
+    height: 45%;
+    display: flex;
+    justify-content: start;
+}
+
+.prof-img-container img {
+    width: auto;
+    height: 100%;
+    border-radius: 100%;
+    
+ 
+}
+
+.prof-text {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.prof-text h2{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.prof-text h3, .prof-text p {
+    
+    font-size: 1.25rem;
+}
+
+.social-media-links {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-img {
+    height: 100%;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
