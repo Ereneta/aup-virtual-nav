@@ -2,12 +2,13 @@
 html, body {
     margin: 0px 0px 0px 0px;
     font-family: 'Red Hat Text', sans-serif;
+    overflow-x: hidden;
 }
 /* Nav bar */
 nav {
     height: 75px;
     width: 100%;
-    background-color: gray;
+    background-color: goldenrod;
     position: fixed;
     opacity: 0.75;
     display: flex;
@@ -41,6 +42,12 @@ nav img {
     margin-right: 15px;
 }
 
+nav a {
+    align-self: center;
+    color: white;
+    text-decoration: none;
+}
+
 /* Banner styles */
 #banner {
     width: 100%;
@@ -48,7 +55,9 @@ nav img {
     background-color: #143E90;
     display: flex;
     position: relative;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 #banner img {
@@ -59,27 +68,38 @@ nav img {
 }    
 
 #banner h2 {
-    align-self: center;
     margin-left: 10%;
-    font-size: 4rem;
     color: white;
     font-family: 'Red Hat Text', sans-serif;
-    font-weight: 100;
+}
+
+#first-text-header {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 5rem;
+    
+}
+
+#second-text-header {
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 4rem;
 }
 
 /* Introduction styles */
 #intro {
     width: 100%;
-    height: auto;
+    height: 550px;
     background-color: whitesmoke;
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 15px 0px 15px 0px;
+    display: flex;
 }
 
 #intro h2 {
     color: goldenrod;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 #intro p {
@@ -88,8 +108,13 @@ nav img {
 
 #intro div {
     width: 30%;
+    margin-left: 13%;
+}
+
+#intro img {
+    height: 100%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 13%;
 }
 
 /* Features styles */
@@ -183,3 +208,168 @@ footer {
 footer > div {
     margin-right: 5%;
 }
+
+/* About page styles */
+
+/* About page banner styles */
+#about-banner {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 75px;
+    background-image: url("/assets/img/about-banner-opt.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#about-banner h2 {
+    align-self: center;
+    font-size: 5rem;
+    color: white;
+
+}
+
+/* About page menu styles */
+#about-menu {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+
+}
+
+#about-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    align-items: center;
+    height: 100%;
+
+}
+
+#about-menu ul a {
+    text-decoration: none;
+    color: white;
+    margin: 2.5%;
+}
+
+.anchor a {
+    position: absolute;
+    left: 0px;
+    top: -115px;
+}
+
+.anchor {
+    position: relative;
+}
+
+
+
+
+/* Developer profile styles */
+#dev-header, #team-header, #project-header {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    color: goldenrod;
+    padding-left: 14%;
+
+}
+
+#dev-header h2, #team-header h2, #project-header h2 {
+    font-size: 3rem;
+    
+}
+
+
+.dev-row {
+    width: 100%;
+    height: 350px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px 0px;
+}
+
+.dev-profile {
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    box-sizing: border-box;
+    overflow: auto;
+
+    
+}
+
+
+
+.prof-img-container {
+    width: 25%;
+    height: 45%;
+    display: flex;
+    justify-content: start;
+}
+
+.prof-img-container img {
+    width: auto;
+    height: 100%;
+    border-radius: 100%;
+    
+ 
+}
+
+.prof-text {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.prof-text h2{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.prof-text h3, .prof-text p {
+    
+    font-size: 1.25rem;
+}
+
+.social-media-links {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-img {
+    height: 100%;
+    margin-right: 15px;
+}
+
+/* Team description styles */
+.description {
+    width: 75%;
+    padding-left: 14%;
+    margin-bottom: 5%;
+}
+
+.description p {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
