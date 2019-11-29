@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AUP NAV NOW!</title>
-    <link rel = "icon" href ="assets/img/logo.png" type = "image/x-icon"> 
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <header>
         <nav>
-            <div id="nav-a">
-                <img src="assets/img/menu.svg" alt="Menu icon">
-                <h1>Title</h1>
+            <div>
+                <div id="nav-a" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
             </div>
-        
-            <div id="nav-b"> 
+            <span style="font-size:30px;cursor:pointer;padding-top: 16px;" onclick="openNav()">&#9776;</span>
+
+            <div id="nav-b">
+                <h1>Title</h1>
                 <ul>
-                    <a href="about.html"><li>About</li></a>
-                    <a><li>Contact Us</li></a>
-                    <a><li>Other AUP Services</li></a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a>
+                        <li>Contact Us</li>
+                    </a>
+                    <a>
+                        <li>Other AUP Services</li>
+                    </a>
                 </ul>
             </div>
-        
         </nav>
     </header>
 
@@ -43,7 +58,7 @@
             <p style="text-align: center;">ON EVER ONWARD MY DEAR AUPIANS! THIS APP WILL FIND YOUR WAYS!</p>
         </div>
         <img src="/assets/img/screenshots/mockuper.png">
-        
+
     </section>
 
     <section id="service-header">
@@ -54,7 +69,7 @@
 
     <section id="header-1">
         <div class="feature-box">
-            
+
         </div>
         <div class="feature-box"></div>
         <div class="feature-box"></div>
@@ -62,7 +77,7 @@
 
     <section id="header-2">
         <div class="feature-box">
-            
+
         </div>
         <div class="feature-box"></div>
         <div class="feature-box"></div>
@@ -70,7 +85,7 @@
 
     <section id="app-grab-header">
         <h2>Coming soon</h2>
-        
+
     </section>
 
     <section id="app-grab">
@@ -90,7 +105,9 @@
             <p>Barangay Puting Kahoy</p>
             <p>Silang, Cavite</p>
         </div>
-        
+
     </footer>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
