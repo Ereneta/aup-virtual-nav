@@ -1,4 +1,6 @@
+
 /* Body and html styles */
+
 html, body {
     margin: 0px 0px 0px 0px;
     font-family: 'Red Hat Text', sans-serif;
@@ -16,9 +18,7 @@ nav {
     display: flex;
     flex-direction: row;
     color: white;
-  
     z-index: 1;
-
 }
 
 #nav-a {
@@ -387,6 +387,13 @@ footer > div {
     font-size: 2.5rem;
     font-weight: bold;
     margin-top: 95px;
+    margin-left: 13%;
+}
+
+/* Form styles */
+#contact-form {
+    height: 300px;
+    color: black;
     margin-left: 13%;
 }
 
