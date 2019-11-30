@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
 
     <title>AUP NAV NOW!</title>
     <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
@@ -14,30 +18,61 @@
 
 <body>
     <header>
-        <nav>
-            <div id="nav-a">
-                <img src="assets/img/menu.svg" alt="Menu icon">
-                <a href="index.html">
-                    <h1>Title</h1>
-                </a>
-            </div>
+        <div>
+                <div id="sidebar" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+        </div>
+    <nav>
+        
+        
+        <div id="nav-a">
+            <span onclick="openNav()">&#9776;</span>
+            <h1>Title</h1>
+        </div>
+       
 
-            <div id="nav-b">
-                <ul>
-                    <a href="about.html">
-                        <li>About</li>
-                    </a>
-                    <a href="contact.html">
-                        <li>Contact Us</li>
-                    </a>
-                    <a>
-                        <li>Other AUP Services</li>
-                    </a>
-                </ul>
-            </div>
+        <div id="nav-b">
+           
+            <ul>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                
+                <li>
+                    <a href="contact.html">Contact Us</a>>
+                </li>
 
-        </nav>
-    </header>
+                <li class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
+                    <a>Other AUP Services</a>
+                    
+                    <div class="mdc-menu mdc-menu-surface">
+                            <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                              <li class="mdc-list-item" role="menuitem">
+                                <span class="mdc-list-item__text">A Menu Item</span>
+                              </li>
+                              <li class="mdc-list-item" role="menuitem">
+                                <span class="mdc-list-item__text">Another Menu Item</span>
+                              </li>
+                              <li class="mdc-list-item" role="menuitem">
+                                    <span class="mdc-list-item__text">Another Menu Item</span>
+                                  </li>
+                                  <li class="mdc-list-item" role="menuitem">
+                                        <span class="mdc-list-item__text">Another Menu Item</span>
+                                </li>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        
+    </nav>
+</header>
 
     <section id="about-banner">
         <h2>Who We Are</h2>
@@ -47,15 +82,15 @@
 
     <section id="about-menu">
         <ul>
-            <a href="#target">
-                <li>Developers</li>
-            </a>
-            <a href="#target-2">
-                <li>Team</li>
-            </a>
-            <a href="#target-3">
-                <li>Project</li>
-            </a>
+            <li>
+                <a href="#target">Developers</a>
+            </li>
+            <li>
+                <a href="#target-2">Team</a>
+            </li>
+            <li>
+                <a href="#target-3">Project</a>
+            </li>
         </ul>
     </section>
 
@@ -68,7 +103,7 @@
     <section class="dev-row">
         <div class="dev-profile">
             <div class="prof-img-container">
-                <img src="/img/profile-ereneta.jpg">
+                <img src="/img/profile-ereneta.jpg" alt="Fritz Ereneta's profile picture">
             </div>
 
             <div class="prof-text">
@@ -87,7 +122,7 @@
     <section class="dev-row">
         <div class="dev-profile">
             <div class="prof-img-container">
-                <img src="assets/img/profile-picture.jpg">
+                <img src="assets/img/profile-picture.jpg" alt="Devloper's picture">
             </div>
 
             <div class="prof-text">
@@ -107,7 +142,7 @@
     <section class="dev-row">
         <div class="dev-profile">
             <div class="prof-img-container">
-                <img src="img/PicsArt_03-17-07.08.09.jpg">
+                <img src="img/PicsArt_03-17-07.08.09.jpg" alt="Frannie James' profile picture">
             </div>
 
             <div class="prof-text">
@@ -128,7 +163,7 @@
     <section class="dev-row">
         <div class="dev-profile">
             <div class="prof-img-container">
-                <img src="assets/img/about-dev-pics/dev-4.jpg">
+                <img src="assets/img/about-dev-pics/dev-4.jpg" alt="Iel Arvill's profile picture">
             </div>
 
             <div class="prof-text">
@@ -149,7 +184,7 @@
     <section class="dev-row">
         <div class="dev-profile">
             <div class="prof-img-container">
-                <img src="assets/img/profile-picture4.jpg">
+                <img src="assets/img/profile-picture4.jpg" alt="Juan Oliver's profile picture">
             </div>
 
             <div class="prof-text">
@@ -168,7 +203,7 @@
     <section class="dev-row">
         <div class="dev-profile">
             <div class="prof-img-container">
-                <img src="\assets\img\IMG_0911.JPG">
+                <img src="/assets/img/IMG_0911.JPG" alt="Neil Kenneth's profile picture">
             </div>
 
             <div class="prof-text">
@@ -208,17 +243,19 @@
     <footer>
         <div class="logo">
             <h1>Logo</h1>
-            <p>Copyright &copy;<span id="getYear"></span> AVN Group</p>
-        </div>
-
-        <div class="address">
+            <p>Copyright &copy; <span id="getYear"></span> AVN Group</p>
             <p>Adventist University of the Philippines</p>
             <p>Barangay Puting Kahoy</p>
             <p>Silang, Cavite</p>
         </div>
 
+
+
+
     </footer>
->>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
+
+    <script src="/assets/js/main.js"></script>
+
 </body>
 
 </html>
