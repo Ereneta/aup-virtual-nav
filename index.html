@@ -8,14 +8,23 @@
     <title>AUP NAV NOW!</title>
     <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/main.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bundle.css">
+=======
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
 
 </head>
 
 <body>
     <header>
+<<<<<<< HEAD
         <nav>
             <div>
                 <div id="nav-a" class="sidenav">
@@ -36,6 +45,58 @@
                     <a><li>Other AUP Services</li></a>
                 </ul>
             </div>
+=======
+            <div>
+                    <div id="nav-a" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+        <nav>
+            
+            
+            <div id="nav-c">
+                <span onclick="openNav()">&#9776;</span>
+                <h1>Title</h1>
+            </div>
+           
+
+            <div id="nav-b">
+               
+                <ul>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact Us</li>
+                    </a>
+                    <a class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
+                        <li>Other AUP Services</li>
+                        <div class="mdc-menu mdc-menu-surface">
+                                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                                  <li class="mdc-list-item" role="menuitem">
+                                    <span class="mdc-list-item__text">A Menu Item</span>
+                                  </li>
+                                  <li class="mdc-list-item" role="menuitem">
+                                    <span class="mdc-list-item__text">Another Menu Item</span>
+                                  </li>
+                                  <li class="mdc-list-item" role="menuitem">
+                                        <span class="mdc-list-item__text">Another Menu Item</span>
+                                      </li>
+                                      <li class="mdc-list-item" role="menuitem">
+                                            <span class="mdc-list-item__text">Another Menu Item</span>
+                                          </li>
+                                </ul>
+                        </div>
+                    </a>
+                </ul>
+            </div>
+
+            
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
         </nav>
     </header>
 
@@ -58,11 +119,16 @@
 
     <section id="service-header">
         <div class="textbox">
+<<<<<<< HEAD
             <h2>These are the features that you might like in the coming release.</h2>
+=======
+            <h2>These are the features that you might like in the coming release</h2>
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
         </div>
     </section>
 
     <section id="header-1">
+<<<<<<< HEAD
         <div class="feature-box box-1">
             <img src="/img/undraw_weather_notification_4sbo.png">
             <p style="text-align: center;"> Weather notification system</p>
@@ -79,11 +145,22 @@
         <p style="text-align: center;"> Library locator</p>
         <p style="text-align:center"> It allow's you to locate the nearest library on the campus.</p>    
         </div>
+=======
+        <div class="feature-box">
+
+        </div>
+        <div class="feature-box"></div>
+        <div class="feature-box"></div>
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
     </section>
 
     <section id="header-2">
         <div class="feature-box">
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
         </div>
         <div class="feature-box"></div>
         <div class="feature-box"></div>
@@ -103,17 +180,37 @@
     <footer>
         <div class="logo">
             <h1>Logo</h1>
+<<<<<<< HEAD
             <p>Copyright 2019 AVN Group</p>
         </div>
 
         <div class="address">
+=======
+            <p>Copyright &copy; <span id="getYear"></span> AVN Group</p>
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
             <p>Adventist University of the Philippines</p>
             <p>Barangay Puting Kahoy</p>
             <p>Silang, Cavite</p>
         </div>
 
+<<<<<<< HEAD
     </footer>
     <script src="js/main.js"></script>
+=======
+
+
+
+    </footer>
+    <script src="js/main.js"></script>
+    <script>
+        const MDCMenu = mdc.menu.MDCMenu;
+        const menu = new MDCMenu(document.querySelector('.mdc-menu'));  
+
+        function openLinkMenu(){
+            menu.open = true;
+        }
+    </script>
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
 </body>
 
 </html>

@@ -6,8 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/main.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="bundle.css">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
+=======
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
 </head>
 <body>
     <header>
@@ -33,6 +40,7 @@
     </section>
 
     <section id="contact-form">
+<<<<<<< HEAD
         
 
         <div class="mdc-text-field mdc-text-field--outlined">
@@ -47,6 +55,37 @@
           </div>
 
         
+=======
+       <form action="https://formspree.io/mkngojdn" method="POST">
+            <fieldset>
+                <div class="mdc-text-field">
+                    
+                    <input class="mdc-text-field__input" type="text" name="_replyto">
+                    <label class="mdc-floating-label" for="emailaddress">Email address</label>
+                    <div class="mdc-line-ripple"> </div>
+                </div>
+
+                <div class="mdc-text-field mdc-text-field--textarea">
+                    <textarea id="textarea" class="mdc-text-field__input" name="message" rows="8" cols="40"></textarea>
+                    <div class="mdc-notched-outline">
+                      <div class="mdc-notched-outline__leading"></div>
+                      <div class="mdc-notched-outline__notch">
+                        <label for="message" class="mdc-floating-label">Message</label>
+                      </div>
+                      <div class="mdc-notched-outline__trailing"></div>
+                    </div>
+                  </div>
+                
+
+                <button type="submit" class="mdc-button mdc-button--raised">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">Submit</span>
+                </button>
+            </fieldset>
+            
+
+       </form>
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
     </section>
         
     <footer>
@@ -63,6 +102,19 @@
         
     </footer>
 
+<<<<<<< HEAD
     <script src="bundle.js" async></script>
+=======
+
+    <script>
+        const MDCTextField = mdc.textField.MDCTextField;
+        const buttonRipple = mdc.ripple.MDCRipple;
+        const button = new buttonRipple(document.querySelector('.mdc-button--raised'));
+        const mdctext = new MDCTextField(document.querySelector('.mdc-text-field'));    
+        const mdctextarea = new MDCTextField(document.querySelector('.mdc-text-field--textarea'))
+    </script>
+
+    
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
 </body>
 </html>

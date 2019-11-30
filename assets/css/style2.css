@@ -1,18 +1,15 @@
-
 /* Body and html styles */
 
-html, body {
-<<<<<<< HEAD
+html,
+body {
     margin: 0px 0px 0px 0px;
-=======
-    margin: 0;
->>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
     font-family: 'Red Hat Text', sans-serif;
     overflow-x: hidden;
-    scroll-behavior: smooth;
-    
 }
+
+
 /* Nav bar */
+
 nav {
     height: 75px;
     width: 100%;
@@ -26,53 +23,110 @@ nav {
 }
 
 #nav-a {
-    display: flex;
-    width: 37%;
-    margin-left: 13%;
-    
+    display: block;
+    height: 100%;
+    margin: 0;
+    width: 0;
 }
+
+#nav-c {
+    display: flex;
+    margin-left: 13%;
+    width: 37%;
+}
+
+#nav-c span {
+    margin-right: 15px;
+    font-size:30px;
+    cursor:pointer;
+    padding-top: 16px;
+}
+
+
+
+/*for sidenav*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-right: 0%;
+}
+
+
+/*end of sidenav*/
 
 #nav-b {
     display: flex;
+    margin-right: 13%;
     width: 37%;
-    justify-content: flex-end;
-    
-    
 }
+
+
 
 nav ul {
     display: flex;
     flex-direction: row;
-    padding: 0px;
+
 }
 
-nav ul a, nav h1 {
+nav ul a {
     list-style-type: none;
-    
+    margin-right: 15px;
     align-self: center;
 }
 
+
+
 nav img {
-  margin-right: 15px;
+    margin-right: 15px;
 }
 
 nav a {
     align-self: center;
     color: white;
     text-decoration: none;
-    margin-right: 15px;
 }
 
+
 /* Banner styles */
+
 #banner {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: #143E90;
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
 }
 
 #banner img {
@@ -80,7 +134,7 @@ nav a {
     height: 100%;
     position: absolute;
     left: 50%;
-}    
+}
 
 #banner h2 {
     margin-left: 10%;
@@ -92,7 +146,6 @@ nav a {
     margin: 0px;
     font-weight: bold;
     font-size: 5rem;
-    
 }
 
 #second-text-header {
@@ -101,7 +154,9 @@ nav a {
     font-size: 4rem;
 }
 
+
 /* Introduction styles */
+
 #intro {
     width: 100%;
     height: 550px;
@@ -132,12 +187,14 @@ nav a {
     margin-right: 13%;
 }
 
+
 /* Features styles */
+
 #service-header {
     width: 100%;
     height: auto;
     background-color: gainsboro;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 15px 15px 15px;
 }
 
 #service-header h2 {
@@ -156,13 +213,12 @@ nav a {
     justify-content: center;
 }
 
-#header-1 .feature-box{
+#header-1 .feature-box {
     width: 25%;
     height: 500px;
     background-color: white;
     margin-right: 15px;
     border-radius: 20px;
-    
 }
 
 #header-2 {
@@ -181,15 +237,16 @@ nav a {
     margin-right: 15px;
     border-radius: 20px;
     margin-top: 50px;
-    
 }
 
+
 /* Get app styles */
+
 #app-grab-header {
     width: 100%;
     height: auto;
     background-color: gainsboro;
-    padding: 15px 0px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -203,7 +260,7 @@ nav a {
     width: 100%;
     height: 100px;
     background-color: gainsboro;
-    padding: 15px 0px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -211,50 +268,54 @@ nav a {
     margin-top: 0;
 }
 
+
 /* Footer styles */
+
 footer {
     width: 100%;
     height: 100px;
     background-color: whitesmoke;
-    padding: 30px 0px;
+    padding: 30px;
     display: flex;
-    position: absolute;
 }
 
-footer > div {
+footer>div {
     margin-right: 5%;
 }
 
+
 /* About page styles */
 
+
 /* About page banner styles */
+
 #about-banner {
     height: 70vh;
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-top: 75px;
     background-image: url("/assets/img/about-banner-opt.jpg");
     background-size: cover;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 #about-banner h2 {
     align-self: center;
     font-size: 5rem;
     color: white;
-
 }
 
+
 /* About page menu styles */
+
 #about-menu {
     width: 100%;
     height: 10vh;
     background-color: black;
-
 }
 
 #about-menu ul {
@@ -264,7 +325,6 @@ footer > div {
     margin: 0px;
     align-items: center;
     height: 100%;
-
 }
 
 #about-menu ul a {
@@ -284,23 +344,23 @@ footer > div {
 }
 
 
-
-
 /* Developer profile styles */
-#dev-header, #team-header, #project-header {
+
+#dev-header,
+#team-header,
+#project-header {
     height: 10vh;
     width: 100%;
     background-color: #fff;
     color: goldenrod;
     padding-left: 14%;
-
 }
 
-#dev-header h2, #team-header h2, #project-header h2 {
+#dev-header h2,
+#team-header h2,
+#project-header h2 {
     font-size: 3rem;
-    
 }
-
 
 .dev-row {
     width: 100%;
@@ -321,11 +381,7 @@ footer > div {
     padding: 25px;
     box-sizing: border-box;
     overflow: auto;
-
-    
 }
-
-
 
 .prof-img-container {
     width: 25%;
@@ -338,24 +394,20 @@ footer > div {
     width: auto;
     height: 100%;
     border-radius: 100%;
-    
- 
 }
 
 .prof-text {
     width: 100%;
     height: 100%;
-
-
 }
 
-.prof-text h2{
+.prof-text h2 {
     font-size: 2.5rem;
     margin: 0;
 }
 
-.prof-text h3, .prof-text p {
-    
+.prof-text h3,
+.prof-text p {
     font-size: 1.25rem;
 }
 
@@ -371,7 +423,9 @@ footer > div {
     margin-right: 15px;
 }
 
+
 /* Team description styles */
+
 .description {
     width: 75%;
     padding-left: 14%;
@@ -381,105 +435,3 @@ footer > div {
 .description p {
     font-size: 1.5rem;
 }
-
-/* Contact form page styles */
-#form-header {
-    height: 100px;
-}
-
-#form-header p {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-top: 95px;
-    margin-left: 13%;
-}
-
-/* Form styles */
-#contact-form {
-<<<<<<< HEAD
-    height: 300px;
-    color: black;
-    margin-left: 13%;
-}
-
-=======
-    height: auto;
-    color: black;
-    margin-left: 13%;
-    margin-right: 13%;
-    margin-bottom: 100px;    
-}
-
-textarea, input {
-    font-family: 'Red Hat Text', sans-serif;
-    font-size: 1rem;
-}
-
-fieldset {
-    display: flex;
-    flex-direction: row;
-}
-
-fieldset > div {
-    margin: 25px;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    #nav-c h1{
-        color: red;
-    }
-    nav ul{
-        display: none;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    #nav-c h1{
-        color: blue;
-    }
-    nav ul {
-        display: none;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    #nav-c h1{
-        color: green;
-    }
-    #nav-c span{
-        display: none;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    #nav-c h1{
-        color: orange;
-    }
-    #nav-c span{
-        display: none;
-    }
-}
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    #nav-c h1{
-        color: pink;
-    }
-      #nav-c span{
-          display: none;
-      }
-}
-
-
->>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
-
-
-
-
-
-
-
