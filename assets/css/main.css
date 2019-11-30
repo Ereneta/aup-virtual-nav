@@ -495,8 +495,21 @@ fieldset > div {
         font-size: 2rem;
     }
     #intro .text-box p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
+    #header-1 {
+        flex-direction: column;
+    }
+    #header-2 {
+        flex-direction: column;
+    }
+    #header-1 .feature-box {
+        width: 100%;      
+    }
+    #header-2 .feature-box{
+        width: 100%;        
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -531,7 +544,7 @@ fieldset > div {
         font-size: 2.2rem;
     }
     #intro .text-box p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -548,6 +561,11 @@ fieldset > div {
         width: 37%;
         justify-content: flex-end;       
     }
+
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -563,15 +581,20 @@ fieldset > div {
         width: 37%;
         justify-content: flex-end;       
     }
+
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
+    }
 }
 
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     #nav-a h1{
         color: pink;
     }
-    #nav-a span{
-          display: none;
+    #nav-c span{
+        display: none;
     }
     nav #nav-b ul {
         display: flex;
@@ -587,6 +610,12 @@ fieldset > div {
         margin-left: 10%;
         font-weight: lighter;
         font-size: 5rem;
+    }
+
+    
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
     }
 }
 
