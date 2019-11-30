@@ -1,10 +1,15 @@
 /* Body and html styles */
-html, body {
+
+html,
+body {
     margin: 0px 0px 0px 0px;
     font-family: 'Red Hat Text', sans-serif;
     overflow-x: hidden;
 }
+
+
 /* Nav bar */
+
 nav {
     height: 75px;
     width: 100%;
@@ -19,9 +24,52 @@ nav {
 }
 
 #nav-a {
-    display: flex;
-    width: 79%;
+    display: block;
+    height: 100%;
+    margin: 0;
+    width: 0;
 }
+
+
+/*for sidenav*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-right: 0%;
+}
+
+
+/*end of sidenav*/
 
 #nav-b {
     display: flex;
@@ -30,11 +78,18 @@ nav {
 nav ul {
     display: flex;
     flex-direction: row;
+    margin-right: -700px;
 }
 
-nav ul a, nav h1 {
+nav ul a {
     list-style-type: none;
     margin-right: 50px;
+    align-self: center;
+}
+
+nav h1 {
+    list-style-type: none;
+    margin-right: 140%;
     align-self: center;
 }
 
@@ -48,7 +103,9 @@ nav a {
     text-decoration: none;
 }
 
+
 /* Banner styles */
+
 #banner {
     width: 100%;
     height: 600px;
@@ -57,7 +114,6 @@ nav a {
     position: relative;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 #banner img {
@@ -65,7 +121,7 @@ nav a {
     height: 100%;
     position: absolute;
     left: 50%;
-}    
+}
 
 #banner h2 {
     margin-left: 10%;
@@ -77,7 +133,6 @@ nav a {
     margin: 0px;
     font-weight: bold;
     font-size: 5rem;
-    
 }
 
 #second-text-header {
@@ -86,7 +141,9 @@ nav a {
     font-size: 4rem;
 }
 
+
 /* Introduction styles */
+
 #intro {
     width: 100%;
     height: 550px;
@@ -117,7 +174,9 @@ nav a {
     margin-right: 13%;
 }
 
+
 /* Features styles */
+
 #service-header {
     width: 100%;
     height: auto;
@@ -141,13 +200,12 @@ nav a {
     justify-content: center;
 }
 
-#header-1 .feature-box{
+#header-1 .feature-box {
     width: 25%;
     height: 500px;
     background-color: white;
     margin-right: 15px;
     border-radius: 20px;
-    
 }
 
 #header-2 {
@@ -166,10 +224,11 @@ nav a {
     margin-right: 15px;
     border-radius: 20px;
     margin-top: 50px;
-    
 }
 
+
 /* Get app styles */
+
 #app-grab-header {
     width: 100%;
     height: auto;
@@ -196,7 +255,9 @@ nav a {
     margin-top: 0;
 }
 
+
 /* Footer styles */
+
 footer {
     width: 100%;
     height: 100px;
@@ -205,13 +266,16 @@ footer {
     display: flex;
 }
 
-footer > div {
+footer>div {
     margin-right: 5%;
 }
 
+
 /* About page styles */
 
+
 /* About page banner styles */
+
 #about-banner {
     height: 70vh;
     width: 100%;
@@ -224,22 +288,21 @@ footer > div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 #about-banner h2 {
     align-self: center;
     font-size: 5rem;
     color: white;
-
 }
 
+
 /* About page menu styles */
+
 #about-menu {
     width: 100%;
     height: 10vh;
     background-color: black;
-
 }
 
 #about-menu ul {
@@ -249,7 +312,6 @@ footer > div {
     margin: 0px;
     align-items: center;
     height: 100%;
-
 }
 
 #about-menu ul a {
@@ -269,23 +331,23 @@ footer > div {
 }
 
 
-
-
 /* Developer profile styles */
-#dev-header, #team-header, #project-header {
+
+#dev-header,
+#team-header,
+#project-header {
     height: 10vh;
     width: 100%;
     background-color: #fff;
     color: goldenrod;
     padding-left: 14%;
-
 }
 
-#dev-header h2, #team-header h2, #project-header h2 {
+#dev-header h2,
+#team-header h2,
+#project-header h2 {
     font-size: 3rem;
-    
 }
-
 
 .dev-row {
     width: 100%;
@@ -306,11 +368,7 @@ footer > div {
     padding: 25px;
     box-sizing: border-box;
     overflow: auto;
-
-    
 }
-
-
 
 .prof-img-container {
     width: 25%;
@@ -323,24 +381,20 @@ footer > div {
     width: auto;
     height: 100%;
     border-radius: 100%;
-    
- 
 }
 
 .prof-text {
     width: 100%;
     height: 100%;
-
-
 }
 
-.prof-text h2{
+.prof-text h2 {
     font-size: 2.5rem;
     margin: 0;
 }
 
-.prof-text h3, .prof-text p {
-    
+.prof-text h3,
+.prof-text p {
     font-size: 1.25rem;
 }
 
@@ -356,7 +410,9 @@ footer > div {
     margin-right: 15px;
 }
 
+
 /* Team description styles */
+
 .description {
     width: 75%;
     padding-left: 14%;
@@ -366,10 +422,3 @@ footer > div {
 .description p {
     font-size: 1.5rem;
 }
-
-
-
-
-
-
-

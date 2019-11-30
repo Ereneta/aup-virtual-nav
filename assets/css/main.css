@@ -1,13 +1,12 @@
+
 /* Body and html styles */
+
 html, body {
     margin: 0px 0px 0px 0px;
     font-family: 'Red Hat Text', sans-serif;
-<<<<<<< HEAD
     overflow-x: hidden;
     scroll-behavior: smooth;
-=======
     
->>>>>>> fa6b4e2f34e20d1a5f3425c8d70789ce25cc106a
 }
 /* Nav bar */
 nav {
@@ -19,9 +18,7 @@ nav {
     display: flex;
     flex-direction: row;
     color: white;
-  
     z-index: 1;
-
 }
 
 #nav-a {
@@ -215,8 +212,9 @@ footer {
     width: 100%;
     height: 100px;
     background-color: whitesmoke;
-    padding: 30pxv 0px;
+    padding: 30px 0px;
     display: flex;
+    position: absolute;
 }
 
 footer > div {
@@ -379,6 +377,26 @@ footer > div {
 .description p {
     font-size: 1.5rem;
 }
+
+/* Contact form page styles */
+#form-header {
+    height: 100px;
+}
+
+#form-header p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 95px;
+    margin-left: 13%;
+}
+
+/* Form styles */
+#contact-form {
+    height: 300px;
+    color: black;
+    margin-left: 13%;
+}
+
 
 
 
