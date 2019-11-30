@@ -2,7 +2,11 @@
 /* Body and html styles */
 
 html, body {
+<<<<<<< HEAD
+    margin: 0px 0px 0px 0px;
+=======
     margin: 0;
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
     font-family: 'Red Hat Text', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -393,6 +397,13 @@ footer > div {
 
 /* Form styles */
 #contact-form {
+<<<<<<< HEAD
+    height: 300px;
+    color: black;
+    margin-left: 13%;
+}
+
+=======
     height: auto;
     color: black;
     margin-left: 13%;
@@ -542,6 +553,7 @@ fieldset > div {
 }
 
 
+>>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
 
 
 
