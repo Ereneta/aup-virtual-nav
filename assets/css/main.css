@@ -2,11 +2,7 @@
 /* Body and html styles */
 
 html, body {
-<<<<<<< HEAD
-    margin: 0px 0px 0px 0px;
-=======
     margin: 0;
->>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
     font-family: 'Red Hat Text', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -397,13 +393,6 @@ footer > div {
 
 /* Form styles */
 #contact-form {
-<<<<<<< HEAD
-    height: 300px;
-    color: black;
-    margin-left: 13%;
-}
-
-=======
     height: auto;
     color: black;
     margin-left: 13%;
@@ -457,7 +446,19 @@ fieldset > div {
         font-size: 2rem;
     }
     #intro .text-box p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+    #header-1 {
+        flex-direction: column;
+    }
+    #header-2 {
+        flex-direction: column;
+    }
+    #header-1 .feature-box {
+        width: 100%;      
+    }
+    #header-2 .feature-box{
+        width: 100%;        
     }
 }
 
@@ -493,7 +494,7 @@ fieldset > div {
         font-size: 2.2rem;
     }
     #intro .text-box p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -527,7 +528,7 @@ fieldset > div {
     }
 }
 
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     #nav-c h1{
         color: pink;
@@ -553,7 +554,6 @@ fieldset > div {
 }
 
 
->>>>>>> 4e8dbb0f37d9e1fa8eedcfd9e5f1b89b95ef058e
 
 
 
