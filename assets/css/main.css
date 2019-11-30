@@ -92,7 +92,7 @@ nav ul {
     margin-right: 15px;
 }
 
-nav ul a, nav h1 {
+nav ul li, nav h1 {
     list-style-type: none;
     align-self: center;
 }
