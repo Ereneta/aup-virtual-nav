@@ -2,7 +2,7 @@
 /* Body and html styles */
 
 html, body {
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     font-family: 'Red Hat Text', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -392,10 +392,29 @@ footer > div {
 
 /* Form styles */
 #contact-form {
-    height: 300px;
+    height: auto;
     color: black;
     margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 100px;    
 }
+
+textarea, input {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 1rem;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+}
+
+fieldset > div {
+    margin: 25px;
+}
+
+
+
 
 
 
