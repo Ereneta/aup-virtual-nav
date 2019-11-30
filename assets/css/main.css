@@ -460,6 +460,7 @@ fieldset > div {
     #header-2 .feature-box{
         width: 100%;        
     }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -511,6 +512,11 @@ fieldset > div {
         width: 37%;
         justify-content: flex-end;       
     }
+
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -526,6 +532,11 @@ fieldset > div {
         width: 37%;
         justify-content: flex-end;       
     }
+
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -534,7 +545,7 @@ fieldset > div {
         color: pink;
     }
     #nav-c span{
-          display: none;
+        display: none;
     }
     nav #nav-b ul {
         display: flex;
@@ -550,6 +561,12 @@ fieldset > div {
         margin-left: 10%;
         font-weight: lighter;
         font-size: 5rem;
+    }
+
+    
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
     }
 }
 
