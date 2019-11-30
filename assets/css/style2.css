@@ -35,6 +35,13 @@ nav {
     width: 37%;
 }
 
+#nav-c span {
+    margin-right: 15px;
+    font-size:30px;
+    cursor:pointer;
+    padding-top: 16px;
+}
+
 
 
 /*for sidenav*/
@@ -82,6 +89,8 @@ nav {
     margin-right: 13%;
     width: 37%;
 }
+
+
 
 nav ul {
     display: flex;
