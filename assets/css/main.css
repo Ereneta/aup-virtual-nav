@@ -415,22 +415,52 @@ fieldset > div {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    #nav-c h1{
+        color: red;
+    }
+    nav ul{
+        display: none;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    #nav-c h1{
+        color: blue;
+    }
+    nav ul {
+        display: none;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    #nav-c h1{
+        color: green;
+    }
+    #nav-c span{
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    #nav-c h1{
+        color: orange;
+    }
+    #nav-c span{
+        display: none;
+    }
 }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
+    #nav-c h1{
+        color: pink;
+    }
+      #nav-c span{
+          display: none;
+      }
 }
 
 
