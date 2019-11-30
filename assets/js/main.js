@@ -1,9 +1,9 @@
 function closeNav() {
-    document.getElementById("nav-a").style.width = "0";
+    document.getElementById("sidebar").style.width = "0";
 }
 
 function openNav() {
-    document.getElementById("nav-a").style.width = "250px";
+    document.getElementById("sidebar").style.width = "250px";
 }
 
 let date = new Date();
