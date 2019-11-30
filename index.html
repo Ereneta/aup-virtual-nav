@@ -18,26 +18,26 @@
 
 <body>
     <header>
-        <div>
-            <div id="nav-a" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
-            </div>
-        </div>
+            <div>
+                    <div id="nav-a" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
         <nav>
-
-
+            
+            
             <div id="nav-c">
                 <span onclick="openNav()">&#9776;</span>
                 <h1>Title</h1>
             </div>
-
+           
 
             <div id="nav-b">
-
+               
                 <ul>
                     <a href="about.html">
                         <li>About</li>
@@ -48,26 +48,26 @@
                     <a class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
                         <li>Other AUP Services</li>
                         <div class="mdc-menu mdc-menu-surface">
-                            <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
-                                <li class="mdc-list-item" role="menuitem">
+                                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                                  <li class="mdc-list-item" role="menuitem">
                                     <span class="mdc-list-item__text">A Menu Item</span>
-                                </li>
-                                <li class="mdc-list-item" role="menuitem">
+                                  </li>
+                                  <li class="mdc-list-item" role="menuitem">
                                     <span class="mdc-list-item__text">Another Menu Item</span>
-                                </li>
-                                <li class="mdc-list-item" role="menuitem">
-                                    <span class="mdc-list-item__text">Another Menu Item</span>
-                                </li>
-                                <li class="mdc-list-item" role="menuitem">
-                                    <span class="mdc-list-item__text">Another Menu Item</span>
-                                </li>
-                            </ul>
+                                  </li>
+                                  <li class="mdc-list-item" role="menuitem">
+                                        <span class="mdc-list-item__text">Another Menu Item</span>
+                                      </li>
+                                      <li class="mdc-list-item" role="menuitem">
+                                            <span class="mdc-list-item__text">Another Menu Item</span>
+                                          </li>
+                                </ul>
                         </div>
                     </a>
                 </ul>
             </div>
 
-
+            
         </nav>
     </header>
 
@@ -104,6 +104,7 @@
 
     <section id="header-2">
         <div class="feature-box">
+
         </div>
         <div class="feature-box"></div>
         <div class="feature-box"></div>
@@ -130,9 +131,17 @@
         </div>
 
 
+
+
     </footer>
     <script src="js/main.js"></script>
+    <script>
+        const MDCMenu = mdc.menu.MDCMenu;
+        const menu = new MDCMenu(document.querySelector('.mdc-menu'));  
 
+        function openLinkMenu(){
+            menu.open = true;
+        }
     </script>
 </body>
 
