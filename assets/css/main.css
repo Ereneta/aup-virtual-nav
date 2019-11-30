@@ -6,7 +6,6 @@ html, body {
     font-family: 'Red Hat Text', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    
 }
 /* Nav bar */
 nav {
@@ -82,17 +81,19 @@ nav {
     justify-content: flex-end;
 }
 
-nav ul {
+#nav-b {
     display: flex;
     flex-direction: row;
-    padding: 0px;
 }
 
-#nav-b ul a {
-    margin-right: 15px;
+#nav-b li {
+    margin-left: 30px;
+    width: 400px;
+    
+
 }
 
-nav ul a, nav h1 {
+nav ul li, nav h1 {
     list-style-type: none;
     align-self: center;
 }
@@ -164,6 +165,7 @@ nav a {
 
 #intro p {
     font-size: 1.5rem;
+    text-align: left;
 }
 
 #intro div {
@@ -228,6 +230,18 @@ nav a {
     border-radius: 20px;
     margin-top: 50px;
     
+}
+
+.feature-box img {
+    margin: 15px 0px;
+    width: 100%;
+    height: 50%;;
+}
+
+.feature-box h2, p {
+    justify-self: center;
+    text-align: center;
+    margin: 15px 15px;
 }
 
 /* Get app styles */
@@ -313,10 +327,10 @@ footer > div {
 
 }
 
-#about-menu ul a {
+#about-menu ul li a {
     text-decoration: none;
     color: white;
-    margin: 2.5%;
+    margin: 25px;
 }
 
 .anchor a {

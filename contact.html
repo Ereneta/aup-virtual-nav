@@ -13,22 +13,61 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div id="nav-a">
-                <img src="assets/img/menu.svg" alt="Menu icon">
-                <a href="index.html"><h1>Title</h1></a>
-            </div>
+        <div>
+                <div id="sidebar" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+        </div>
+    <nav>
         
-            <div id="nav-b"> 
-                <ul>
-                    <a href="about.html"><li>About</li></a>
-                    <a><li>Contact Us</li></a>
-                    <a><li>Other AUP Services</li></a>
-                </ul>
-            </div>
         
-        </nav>
-    </header>
+        <div id="nav-a">
+            <span onclick="openNav()">&#9776;</span>
+            <h1>Title</h1>
+        </div>
+       
+
+        <div id="nav-b">
+           
+            <ul>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                
+                <li>
+                    <a href="contact.html">Contact Us</a>>
+                </li>
+
+                <li class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
+                    <a>Other AUP Services</a>
+                    
+                    <div class="mdc-menu mdc-menu-surface">
+                            <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                              <li class="mdc-list-item" role="menuitem">
+                                <span class="mdc-list-item__text">A Menu Item</span>
+                              </li>
+                              <li class="mdc-list-item" role="menuitem">
+                                <span class="mdc-list-item__text">Another Menu Item</span>
+                              </li>
+                              <li class="mdc-list-item" role="menuitem">
+                                    <span class="mdc-list-item__text">Another Menu Item</span>
+                                  </li>
+                                  <li class="mdc-list-item" role="menuitem">
+                                        <span class="mdc-list-item__text">Another Menu Item</span>
+                                </li>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        
+    </nav>
+</header>
 
     <section id="form-header">
         <p>CONTACT US</p>
@@ -40,7 +79,7 @@
                 <div class="mdc-text-field">
                     
                     <input class="mdc-text-field__input" type="text" name="_replyto">
-                    <label class="mdc-floating-label" for="emailaddress">Email address</label>
+                    <label class="mdc-floating-label">Email address</label>
                     <div class="mdc-line-ripple"> </div>
                 </div>
 
@@ -49,7 +88,7 @@
                     <div class="mdc-notched-outline">
                       <div class="mdc-notched-outline__leading"></div>
                       <div class="mdc-notched-outline__notch">
-                        <label for="message" class="mdc-floating-label">Message</label>
+                        <label class="mdc-floating-label">Message</label>
                       </div>
                       <div class="mdc-notched-outline__trailing"></div>
                     </div>
@@ -81,13 +120,7 @@
     </footer>
 
 
-    <script>
-        const MDCTextField = mdc.textField.MDCTextField;
-        const buttonRipple = mdc.ripple.MDCRipple;
-        const button = new buttonRipple(document.querySelector('.mdc-button--raised'));
-        const mdctext = new MDCTextField(document.querySelector('.mdc-text-field'));    
-        const mdctextarea = new MDCTextField(document.querySelector('.mdc-text-field--textarea'))
-    </script>
+    <script src="/assets/js/main.js"></script>
 
     
 </body>
