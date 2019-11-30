@@ -19,7 +19,6 @@ nav {
     display: flex;
     flex-direction: row;
     color: white;
-    padding: 0px 15px 0px 15px;
     z-index: 1;
 }
 
@@ -81,6 +80,7 @@ nav {
 #nav-b {
     display: flex;
     margin-right: 13%;
+    width: 37%;
 }
 
 nav ul {
@@ -91,7 +91,7 @@ nav ul {
 
 nav ul a {
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 15px;
     align-self: center;
 }
 
