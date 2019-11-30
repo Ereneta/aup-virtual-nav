@@ -8,28 +8,36 @@
     <title>AUP NAV NOW!</title>
     <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="bundle.css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 
 </head>
 
 <body>
     <header>
-        <nav>
             <div>
-                <div id="nav-a" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Contact</a>
+                    <div id="nav-a" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
                 </div>
+        <nav>
+            
+            
+            <div id="nav-c">
+                <span style="font-size:30px;cursor:pointer;padding-top: 16px;" onclick="openNav()">&#9776;</span>
+                <h1>Title</h1>
             </div>
-            <span style="font-size:30px;cursor:pointer;padding-top: 16px;" onclick="openNav()">&#9776;</span>
+           
 
             <div id="nav-b">
-                <h1>Title</h1>
+               
                 <ul>
                     <a href="about.html">
                         <li>About</li>
@@ -37,11 +45,29 @@
                     <a href="contact.html">
                         <li>Contact Us</li>
                     </a>
-                    <a>
+                    <a class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
                         <li>Other AUP Services</li>
+                        <div class="mdc-menu mdc-menu-surface">
+                                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                                  <li class="mdc-list-item" role="menuitem">
+                                    <span class="mdc-list-item__text">A Menu Item</span>
+                                  </li>
+                                  <li class="mdc-list-item" role="menuitem">
+                                    <span class="mdc-list-item__text">Another Menu Item</span>
+                                  </li>
+                                  <li class="mdc-list-item" role="menuitem">
+                                        <span class="mdc-list-item__text">Another Menu Item</span>
+                                      </li>
+                                      <li class="mdc-list-item" role="menuitem">
+                                            <span class="mdc-list-item__text">Another Menu Item</span>
+                                          </li>
+                                </ul>
+                        </div>
                     </a>
                 </ul>
             </div>
+
+            
         </nav>
     </header>
 
@@ -109,6 +135,14 @@
 
     </footer>
     <script src="js/main.js"></script>
+    <script>
+        const MDCMenu = mdc.menu.MDCMenu;
+        const menu = new MDCMenu(document.querySelector('.mdc-menu'));  
+
+        function openLinkMenu(){
+            menu.open = true;
+        }
+    </script>
 </body>
 
 </html>
