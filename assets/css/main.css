@@ -418,8 +418,34 @@ fieldset > div {
     #nav-c h1{
         color: red;
     }
-    nav ul{
+    nav #nav-b ul {
         display: none;
+    }
+    #banner {
+        width: 100%;
+        height: 500px;
+        background-color: #143E90;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 4rem;        
+    }    
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 3rem;
+    }
+    #intro .text-box h2 {
+        font-size: 2rem;
+    }
+    #intro .text-box p {
+        font-size: 1.3rem;
     }
 }
 
@@ -428,8 +454,28 @@ fieldset > div {
     #nav-c h1{
         color: blue;
     }
-    nav ul {
+    nav #nav-b ul {
         display: none;
+    }
+    #banner {
+        width: 100%;
+        height: 500px;
+        background-color: #143E90;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 4rem;        
+    }    
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 3rem;
     }
 }
 
@@ -458,9 +504,19 @@ fieldset > div {
     #nav-c h1{
         color: pink;
     }
-      #nav-c span{
+    #nav-c span{
           display: none;
-      }
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 6rem;        
+    }    
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 5rem;
+    }
 }
 
 
