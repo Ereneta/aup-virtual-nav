@@ -88,13 +88,14 @@ nav a {
     margin: 0px;
     font-weight: bold;
     font-size: 5rem;
-    
+    z-index: 1;
 }
 
 #second-text-header {
     margin: 0px;
     font-weight: lighter;
     font-size: 4rem;
+    z-index: 1;
 }
 
 /* Introduction styles */
@@ -470,12 +471,18 @@ fieldset > div {
     #banner #first-text-header {
         margin-left: 10%;
         font-weight: bold;
-        font-size: 4rem;        
+        font-size: 4rem;    
     }    
     #banner #second-text-header {
         margin-left: 10%;
         font-weight: lighter;
         font-size: 3rem;
+    }
+    #intro .text-box h2 {
+        font-size: 2.2rem;
+    }
+    #intro .text-box p {
+        font-size: 1.4rem;
     }
 }
 
@@ -487,6 +494,11 @@ fieldset > div {
     #nav-c span{
         display: none;
     }
+    nav #nav-b ul {
+        display: flex;
+        width: 37%;
+        justify-content: flex-end;       
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -497,6 +509,11 @@ fieldset > div {
     #nav-c span{
         display: none;
     }
+    nav #nav-b ul {
+        display: flex;
+        width: 37%;
+        justify-content: flex-end;       
+    }
 }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -506,6 +523,11 @@ fieldset > div {
     }
     #nav-c span{
           display: none;
+    }
+    nav #nav-b ul {
+        display: flex;
+        width: 37%;
+        justify-content: flex-end;       
     }
     #banner #first-text-header {
         margin-left: 10%;
