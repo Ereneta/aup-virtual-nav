@@ -124,6 +124,10 @@ nav a {
     text-decoration: none;
 }
 
+.services {
+    margin-top: 27px;
+}
+
 
 /* Banner styles */
 
@@ -468,5 +472,162 @@ footer img {
         background-color: white;
         margin-right: 15px;
         border-radius: 20px;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    nav #nav-b ul {
+        display: none;
+    }
+    #banner {
+        width: 100%;
+        height: 500px;
+        background-color: #143E90;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 3rem;
+    }
+    #intro .text-box h2 {
+        font-size: 2rem;
+    }
+    #intro .text-box p {
+        font-size: 1.2rem;
+    }
+    #header-1 {
+        flex-direction: column;
+    }
+    #header-2 {
+        flex-direction: column;
+    }
+    #header-1 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box h2, p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .feature-box h2, p {
+    justify-self: center;
+    text-align: center;
+    margin: 2px 15px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    nav #nav-b ul {
+        display: none;
+    }
+    .sidenav span {
+        display: inline;
+    }
+    #banner {
+        width: 100%;
+        height: 500px;
+        background-color: #143E90;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 3rem;
+    }
+    #intro .text-box h2 {
+        font-size: 2.2rem;
+    }
+    #intro .text-box p {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .sidenav span {
+        display: none;
+    }
+    nav #nav-b ul {
+        display: flex;
+        width: 37%;
+        justify-content: flex-end;
+    }
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    #nav-b span {
+        display: none;
+    }
+    nav #nav-b ul {
+        display: flex;
+        width: 37%;
+        justify-content: flex-end;
+    }
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    #nav-b span {
+        display: none;
+    }
+    nav #nav-b ul {
+        display: flex;
+        width: 37%;
+        justify-content: flex-end;
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 6rem;
+    }
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 5rem;
+    }
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
     }
 }
