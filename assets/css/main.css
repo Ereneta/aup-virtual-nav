@@ -1,13 +1,16 @@
-
 /* Body and html styles */
 
-html, body {
+html,
+body {
     margin: 0;
     font-family: 'Red Hat Text', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
+
 /* Nav bar */
+
 nav {
     height: 75px;
     width: 100%;
@@ -24,16 +27,14 @@ nav {
     display: flex;
     width: 37%;
     margin-left: 13%;
-    
 }
 
-#nav-a span {
+#nav-b span {
     margin-right: 15px;
-    font-size:30px;
-    cursor:pointer;
+    font-size: 30px;
+    cursor: pointer;
     padding-top: 16px;
 }
-
 #nav-c {
     display: flex;
     margin-left: 13%;
@@ -87,7 +88,6 @@ nav {
 
 /*end of sidenav*/
 
-
 #nav-b {
     display: flex;
     width: 37%;
@@ -102,17 +102,16 @@ nav {
 #nav-b li {
     margin-left: 30px;
     width: 400px;
-    
-
 }
 
-nav ul li, nav h1 {
+nav ul li,
+nav h1 {
     list-style-type: none;
     align-self: center;
 }
 
 nav img {
-  margin-right: 15px;
+    margin-right: 15px;
 }
 
 nav a {
@@ -121,7 +120,9 @@ nav a {
     text-decoration: none;
 }
 
+
 /* Banner styles */
+
 #banner {
     width: 100%;
     height: 600px;
@@ -138,7 +139,7 @@ nav a {
     height: 100%;
     position: absolute;
     left: 50%;
-}    
+}
 
 #banner h2 {
     margin-left: 10%;
@@ -160,7 +161,9 @@ nav a {
     z-index: 1;
 }
 
+
 /* Introduction styles */
+
 #intro {
     width: 100%;
     height: 550px;
@@ -192,11 +195,9 @@ nav a {
     margin-right: 13%;
 }
 
-#textbox > p {
-    text-align: left;
-}
 
 /* Features styles */
+
 #service-header {
     width: 100%;
     height: auto;
@@ -221,13 +222,12 @@ nav a {
     justify-content: center;
 }
 
-#header-1 .feature-box{
+#header-1 .feature-box {
     width: 25%;
     height: 500px;
     background-color: white;
     margin-right: 15px;
     border-radius: 20px;
-    
 }
 
 #header-2 {
@@ -246,22 +246,25 @@ nav a {
     margin-right: 15px;
     border-radius: 20px;
     margin-top: 50px;
-    
 }
 
 .feature-box img {
     margin: 15px 0px;
     width: 100%;
-    height: 50%;;
+    height: 50%;
+    ;
 }
 
-.feature-box h2, .feature-box p {
+.feature-box h2,
+p {
     justify-self: center;
     text-align: center;
     margin: 15px 15px;
 }
 
+
 /* Get app styles */
+
 #app-grab-header {
     width: 100%;
     height: auto;
@@ -288,11 +291,9 @@ nav a {
     margin-top: 0;
 }
 
-#app-grab-header, #app-grab {
-    display: none;
-}
 
 /* Footer styles */
+
 footer {
     width: 100%;
     height: 300px;
@@ -302,19 +303,16 @@ footer {
     position: absolute;
 }
 
-footer > div {
+footer>div {
     margin-right: 5%;
-}
-
-.mylogo{
-    width: 75px;
-    height: 75px;
 }
 
 
 /* About page styles */
 
+
 /* About page banner styles */
+
 #about-banner {
     height: 70vh;
     width: 100%;
@@ -326,22 +324,21 @@ footer > div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 #about-banner h2 {
     align-self: center;
     font-size: 5rem;
     color: white;
-
 }
 
+
 /* About page menu styles */
+
 #about-menu {
     width: 100%;
     height: 10vh;
     background-color: black;
-
 }
 
 #about-menu ul {
@@ -351,7 +348,6 @@ footer > div {
     margin: 0px;
     align-items: center;
     height: 100%;
-
 }
 
 #about-menu ul li a {
@@ -371,23 +367,23 @@ footer > div {
 }
 
 
-
-
 /* Developer profile styles */
-#dev-header, #team-header, #project-header {
+
+#dev-header,
+#team-header,
+#project-header {
     height: 10vh;
     width: 100%;
     background-color: #fff;
     color: goldenrod;
     padding-left: 14%;
-
 }
 
-#dev-header h2, #team-header h2, #project-header h2 {
+#dev-header h2,
+#team-header h2,
+#project-header h2 {
     font-size: 3rem;
-    
 }
-
 
 .dev-row {
     width: 100%;
@@ -408,11 +404,7 @@ footer > div {
     padding: 25px;
     box-sizing: border-box;
     overflow: auto;
-
-    
 }
-
-
 
 .prof-img-container {
     width: 25%;
@@ -425,24 +417,20 @@ footer > div {
     width: auto;
     height: 100%;
     border-radius: 100%;
-    
- 
 }
 
 .prof-text {
     width: 100%;
     height: 100%;
-
-
 }
 
-.prof-text h2{
+.prof-text h2 {
     font-size: 2.5rem;
     margin: 0;
 }
 
-.prof-text h3, .prof-text p {
-    
+.prof-text h3,
+.prof-text p {
     font-size: 1.25rem;
 }
 
@@ -458,7 +446,9 @@ footer > div {
     margin-right: 15px;
 }
 
+
 /* Team description styles */
+
 .description {
     width: 75%;
     padding-left: 14%;
@@ -469,7 +459,9 @@ footer > div {
     font-size: 1.5rem;
 }
 
+
 /* Contact form page styles */
+
 #form-header {
     height: 100px;
 }
@@ -481,16 +473,19 @@ footer > div {
     margin-left: 13%;
 }
 
+
 /* Form styles */
+
 #contact-form {
     height: auto;
     color: black;
     margin-left: 13%;
     margin-right: 13%;
-    margin-bottom: 100px;    
+    margin-bottom: 100px;
 }
 
-textarea, input {
+textarea,
+input {
     font-family: 'Red Hat Text', sans-serif;
     font-size: 1rem;
 }
@@ -500,13 +495,15 @@ fieldset {
     flex-direction: row;
 }
 
-fieldset > div {
+fieldset>div {
     margin: 25px;
 }
 
+
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
-    #nav-c h1{
+    #nav-c h1 {
         color: red;
     }
     nav #nav-b ul {
@@ -525,8 +522,8 @@ fieldset > div {
     #banner #first-text-header {
         margin-left: 10%;
         font-weight: bold;
-        font-size: 4rem;        
-    }    
+        font-size: 4rem;
+    }
     #banner #second-text-header {
         margin-left: 10%;
         font-weight: lighter;
@@ -545,21 +542,25 @@ fieldset > div {
         flex-direction: column;
     }
     #header-1 .feature-box {
-        width: 100%;      
+        width: 100%;
     }
-    #header-2 .feature-box{
-        width: 100%;        
+    #header-2 .feature-box {
+        width: 100%;
     }
-
 }
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {
-    #nav-c h1{
+    #nav-c h1 {
         color: blue;
     }
     nav #nav-b ul {
         display: none;
+    }
+    .sidenav span {
+        display: inline;
     }
     #banner {
         width: 100%;
@@ -574,8 +575,8 @@ fieldset > div {
     #banner #first-text-header {
         margin-left: 10%;
         font-weight: bold;
-        font-size: 4rem;    
-    }    
+        font-size: 4rem;
+    }
     #banner #second-text-header {
         margin-left: 10%;
         font-weight: lighter;
@@ -589,82 +590,75 @@ fieldset > div {
     }
 }
 
+
 /* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) {
-    #nav-a h1{
+    #nav-a h1 {
         color: green;
     }
-    #nav-a span{
+    .sidenav span {
         display: none;
     }
     nav #nav-b ul {
         display: flex;
         width: 37%;
-        justify-content: flex-end;       
+        justify-content: flex-end;
     }
-
     /* ABOUT PAGE */
     #nav-a img {
         display: none;
     }
 }
+
 
 /* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
-    #nav-a h1{
+    #nav-a h1 {
         color: orange;
     }
-    #nav-a span{
+    #nav-b span {
         display: none;
     }
     nav #nav-b ul {
         display: flex;
         width: 37%;
-        justify-content: flex-end;       
+        justify-content: flex-end;
     }
-
     /* ABOUT PAGE */
     #nav-a img {
         display: none;
     }
 }
 
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    #nav-a h1{
+
+@media only screen and (min-width: 1200px) {
+    #nav-a h1 {
         color: pink;
     }
-    #nav-c span{
+    #nav-b span {
         display: none;
     }
     nav #nav-b ul {
         display: flex;
         width: 37%;
-        justify-content: flex-end;       
+        justify-content: flex-end;
     }
     #banner #first-text-header {
         margin-left: 10%;
         font-weight: bold;
-        font-size: 6rem;        
-    }    
+        font-size: 6rem;
+    }
     #banner #second-text-header {
         margin-left: 10%;
         font-weight: lighter;
         font-size: 5rem;
     }
-
-    
     /* ABOUT PAGE */
     #nav-a img {
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
