@@ -179,6 +179,10 @@ nav a {
     margin-right: 13%;
 }
 
+#textbox > p {
+    text-align: left;
+}
+
 /* Features styles */
 #service-header {
     width: 100%;
@@ -238,7 +242,7 @@ nav a {
     height: 50%;;
 }
 
-.feature-box h2, p {
+.feature-box h2, .feature-box p {
     justify-self: center;
     text-align: center;
     margin: 15px 15px;
@@ -271,10 +275,14 @@ nav a {
     margin-top: 0;
 }
 
+#app-grab-header, #app-grab {
+    display: none;
+}
+
 /* Footer styles */
 footer {
     width: 100%;
-    height: 100px;
+    height: 300px;
     background-color: whitesmoke;
     padding: 30px;
     display: flex;
