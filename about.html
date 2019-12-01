@@ -17,87 +17,91 @@
 </head>
 
 <body>
-    <header>
-        <div>
-                <div id="sidebar" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Contact</a>
+        <header>
+        
+                <div>
+                        
+                        <div id="nav-a" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">About</a>
+                            <a href="#">Services</a>
+                            <a href="#">Clients</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+            <nav>
+                
+                
+                <div id="nav-c">
+                        <img class="mylogo" src="assets\img\LOGO1.png" alt="LOGO4">
+                    <span onclick="openNav()">&#9776;</span>`
+                    <h1>AUP NAVIGATION</h1>
                 </div>
-        </div>
-    <nav>
-        
-        
-        <div id="nav-a">
-            <span onclick="openNav()">&#9776;</span>
-            <h1>Title</h1>
-        </div>
-       
+               
+    
+                    <div id="nav-b">
+                   
+                        <ul>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                        
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+    
+                            <li class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
+                                <a>Other</a>
+                            
+                                <div class="mdc-menu mdc-menu-surface">
+                                        <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                                        <li class="mdc-list-item" role="menuitem">
+                                        <span class="mdc-list-item__text">A Menu Item</span>
+                                      </li>
+                                      <li class="mdc-list-item" role="menuitem">
+                                        <span class="mdc-list-item__text">Another Menu Item</span>
+                                      </li>
+                                      <li class="mdc-list-item" role="menuitem">
+                                            <span class="mdc-list-item__text">Another Menu Item</span>
+                                          </li>
+                                          <li class="mdc-list-item" role="menuitem">
+                                                <span class="mdc-list-item__text">Another Menu Item</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+    
+                
+            </nav>
+        </header>
+    
 
-        <ul id="nav-b">
-           
+        <section id="about-banner">
+            <h2>Who We Are</h2>
+        </section>
+
+
+
+        <section id="about-menu">
             <ul>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="#target">Developers</a>
                 </li>
-                
                 <li>
-                    <a href="contact.html">Contact Us</a>>
+                    <a href="#target-2">Team</a>
                 </li>
-
-                <li class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
-                    <a>Other AUP Services</a>
-                    
-                    <div class="mdc-menu mdc-menu-surface">
-                            <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
-                              <li class="mdc-list-item" role="menuitem">
-                                <span class="mdc-list-item__text">A Menu Item</span>
-                              </li>
-                              <li class="mdc-list-item" role="menuitem">
-                                <span class="mdc-list-item__text">Another Menu Item</span>
-                              </li>
-                              <li class="mdc-list-item" role="menuitem">
-                                    <span class="mdc-list-item__text">Another Menu Item</span>
-                                  </li>
-                                  <li class="mdc-list-item" role="menuitem">
-                                        <span class="mdc-list-item__text">Another Menu Item</span>
-                                </li>
-                            </ul>
-                    </div>
+                <li>
+                    <a href="#target-3">Project</a>
                 </li>
             </ul>
-        
+        </section>
 
-        
-    </nav>
-</header>
+        <section id="dev-header" class="anchor">
+            <a name="target"></a>
 
-    <section id="about-banner">
-        <h2>Who We Are</h2>
-    </section>
-
-
-
-    <section id="about-menu">
-        <ul>
-            <li>
-                <a href="#target">Developers</a>
-            </li>
-            <li>
-                <a href="#target-2">Team</a>
-            </li>
-            <li>
-                <a href="#target-3">Project</a>
-            </li>
-        </ul>
-    </section>
-
-    <section id="dev-header" class="anchor">
-        <a name="target"></a>
-
-        <h2>DEVELOPERS</h2>
+            <h2>DEVELOPERS</h2>
     </section>
 
     <section class="dev-row">
