@@ -706,4 +706,10 @@ footer img {
     #nav-a img {
         display: none;
     }
+    #intro .text-box h2 {
+        font-size: 5rem;
+    }
+    #intro .text-box p {
+        font-size: 1.6rem;
+    }
 }
