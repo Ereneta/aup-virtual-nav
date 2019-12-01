@@ -490,6 +490,9 @@ footer img {
     .dev-row .dev-profile .prof-text p {
         font-size: 90%;
     }
+    #dev-header h2, #team-header h2, #project-header h2{
+        font-size: 2rem;
+    }
 
 }
 /* Extra small devices (phones, 600px and down) */

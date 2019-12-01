@@ -573,7 +573,16 @@ fieldset>div {
         font-size: 80%;
     }
     #dev-header h2 {
-        font-size: 80%;
+        font-size: 2.5rem;
+    }
+    .dev-row .dev-profile .prof-text h2 {
+        font-size: 90%;
+    }
+    .dev-row .dev-profile .prof-text h3 {
+        font-size: 90%;
+    }
+    .dev-row .dev-profile .prof-text p {
+        font-size: 90%;
     }
 }
 
