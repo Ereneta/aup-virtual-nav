@@ -6,14 +6,6 @@ function openNav() {
     document.getElementById("sidebar").style.width = "250px";
 }
 
-
-const MDCMenu = mdc.menu.MDCMenu;
-const menu = new MDCMenu(document.querySelector('.mdc-menu'));
-
-function openLinkMenu() {
-    menu.open = true;
-}
-
 // Form JS
 const MDCTextField = mdc.textField.MDCTextField;
 const buttonRipple = mdc.ripple.MDCRipple;
