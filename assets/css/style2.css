@@ -472,6 +472,16 @@ footer img {
         margin-right: 15px;
         border-radius: 20px;
     }
+    .dev-profile {
+        flex-direction: column;
+    }
+    #about-menu {
+        font-size: 80%;
+    }
+    #dev-header h2 {
+        font-size: 2.5rem;
+    }
+    
 }
 /* Extra small devices (phones, 600px and down) */
 

@@ -566,6 +566,15 @@ fieldset>div {
     text-align: center;
     margin: 2px 15px;
     }
+    .dev-profile {
+        flex-direction: column;
+    }
+    #about-menu {
+        font-size: 80%;
+    }
+    #dev-header h2 {
+        font-size: 80%;
+    }
 }
 
 
