@@ -293,12 +293,11 @@ footer > div {
     margin-right: 5%;
 }
 
-footer img {
-    position: relative;
-    left: 50px;
-    height: auto;
+.mylogo{
     width: 75px;
+    height: 75px;
 }
+
 
 /* About page styles */
 
