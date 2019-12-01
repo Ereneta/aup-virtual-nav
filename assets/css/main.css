@@ -284,11 +284,16 @@ p {
     height: 100px;
     background-color: gainsboro;
     padding: 15px 0px;
-    text-align: center;
+    display: flex;    
 }
 
 #app-grab p {
     margin-top: 0;
+}
+
+#app-grab > img {
+    height: 100%;
+    width: auto;
 }
 
 
