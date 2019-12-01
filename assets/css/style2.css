@@ -493,7 +493,9 @@ footer img {
     #dev-header h2, #team-header h2, #project-header h2{
         font-size: 2rem;
     }
-
+    .description p{
+        font-size: 110%;
+    }
 }
 /* Extra small devices (phones, 600px and down) */
 
