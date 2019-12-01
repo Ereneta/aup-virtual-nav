@@ -252,7 +252,19 @@ nav a {
     border-radius: 20px;
     margin-top: 50px;
 }
+.feature-box img {
+    margin: 15px 0px;
+    width: 100%;
+    height: 50%;
+    
+}
 
+.feature-box h2,
+p {
+    justify-self: center;
+    text-align: center;
+    margin: 15px 15px;
+}
 
 /* Get app styles */
 
