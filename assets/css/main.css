@@ -337,7 +337,9 @@ footer>div {
     margin-right: 5%;
 
 }
-
+footer img {
+    margin-left: 100px;
+}
 
 /* About page styles */
 
@@ -379,6 +381,12 @@ footer>div {
     margin: 0px;
     align-items: center;
     height: 100%;
+}
+
+#about-menu ul a {
+    text-decoration: none;
+    color: white;
+    margin: 2.5%;
 }
 
 #about-menu ul li a {
