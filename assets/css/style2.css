@@ -445,3 +445,25 @@ footer>div {
 .description p {
     font-size: 1.5rem;
 }
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    #header-2 .feature-box h2, p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .feature-box h2, p {
+    justify-self: center;
+    text-align: center;
+    margin: 2px 15px;
+    }
+    #header-1 .feature-box {
+        width: 100%;
+        height: 500px;
+        background-color: white;
+        margin-right: 15px;
+        border-radius: 20px;
+    }
+}
