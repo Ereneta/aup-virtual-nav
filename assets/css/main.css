@@ -651,6 +651,12 @@ fieldset>div {
     #intro .text-box p {
         font-size: 1.3rem;
     }
+    #header-1 {
+        flex-direction: column;
+    }
+    #header-2 {
+        flex-direction: column;
+    }
     #header-1 .feature-box {
         width: 100%;
     }
@@ -671,6 +677,12 @@ fieldset>div {
     .feature-box img {
         margin: -6px 0px;
     }
+
+    .feature-box h2, p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+        }
 }
 
 
