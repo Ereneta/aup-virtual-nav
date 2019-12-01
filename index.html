@@ -18,57 +18,49 @@
 
 <body>
     <header>
-        
-<div>
-
         <div>
+            <div>
+                <nav>
+                    <div id="nav-c">
+                        <img class="mylogo" src="assets\img\LOGO1.png" alt="LOGO4">
 
-            <nav>
+                        <h1>AUP NAVIGATION</h1>
+                    </div>
+                    <div id="nav-b">
+                        <ul>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                            <li class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
+                                <a>Other Services</a>
+                                <div class="sidenav">
+                                    <span onclick="openNav()">&#9776;</span>
+                                </div>
 
-
-                <div id="nav-c">
-                    <img class="mylogo" src="assets\img\LOGO1.png" alt="LOGO4">
-                    <span onclick="openNav()">&#9776;</span>
-                    <h1>AUP NAVIGATION</h1>
-                </div>
-
-
-                <div id="nav-b">
-
-                    <ul>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-
-                        <li class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
-                            <a>Other</a>
-
-                            <div class="mdc-menu mdc-menu-surface">
-                                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <span class="mdc-list-item__text">A Menu Item</span>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <span class="mdc-list-item__text">Another Menu Item</span>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <span class="mdc-list-item__text">Another Menu Item</span>
-                                    </li>
-                                    <li class="mdc-list-item" role="menuitem">
-                                        <span class="mdc-list-item__text">Another Menu Item</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-
-            </nav>
+                                <div class="mdc-menu mdc-menu-surface">
+                                    <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                                        <li class="mdc-list-item" role="menuitem">
+                                            <span class="mdc-list-item__text">A Menu Item</span>
+                                        </li>
+                                        <li class="mdc-list-item" role="menuitem">
+                                            <span class="mdc-list-item__text">Another Menu Item</span>
+                                        </li>
+                                        <li class="mdc-list-item" role="menuitem">
+                                            <span class="mdc-list-item__text">Another Menu Item</span>
+                                        </li>
+                                        <li class="mdc-list-item" role="menuitem">
+                                            <span class="mdc-list-item__text">Another Menu Item</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
     </header>
 
     <section id="banner">
@@ -148,7 +140,7 @@
     <footer>
         <div class="logo">
             <img class="mylogo" src="assets\img\LOGO1.png" alt="LOGO4">
-            <p>Copyright 2019 AVN Group</p>
+            <p>Copyright &copy; <span id="getYear"> AVN Group</p>
             <p>Adventist University of the Philippines</p>
             <p>Barangay Puting Kahoy</p>
             <p>Silang, Cavite</p>
