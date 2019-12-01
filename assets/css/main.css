@@ -48,7 +48,13 @@ nav {
     padding-top: 16px;
 }
 
+.mylogo{
+    width: 75px;
+    height: 75px;
+}
+
 /*for sidenav*/
+
 
 .sidenav {
     height: 100%;
@@ -103,6 +109,18 @@ nav {
     margin-left: 30px;
     margin-top: 0px;
     width: 400px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav ul a {
+    list-style-type: none;
+    margin-right: 15px;
+    align-self: center;
 }
 
 nav ul li,
