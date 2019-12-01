@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
 
     <title>Document</title>
@@ -15,30 +16,53 @@
 
 <body>
     <header>
-        <nav>
-            <div id="nav-a">
-                <img src="assets/img/menu.svg" alt="Menu icon">
-                <a href="index.html">
-                    <h1>Title</h1>
-                </a>
-            </div>
+    <nav>
+        
+        
+        <div id="nav-c">
+        <img class="mylogo" src="assets\img\LOGO1.png" alt="LOGO4">
+            <span onclick="openNav()"></span>
+            <a href="index.html"><h1>AUP NAVIGATION</h1></a>
+        </div>
+       
 
-            <div id="nav-b">
-                <ul>
-                    <a href="about.html">
-                        <li>About</li>
-                    </a>
-                    <a href="contact.html">
-                        <li>Contact Us</li>
-                    </a>
-                    <a>
-                        <li>Other AUP Services</li>
-                    </a>
-                </ul>
-            </div>
+        <ul id="nav-b">
+           
+            <ul>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
 
-        </nav>
-    </header>
+                <li class="mdc-menu-surface--anchor" onclick="openLinkMenu()">
+                    <a href="http://aolis.aup.edu.ph/?q=user">AUP Services</a>
+                    
+                    <div class="mdc-menu mdc-menu-surface">
+                            <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                              <li class="mdc-list-item" role="menuitem">
+                                <span class="mdc-list-item__text">A Menu Item</span>
+                              </li>
+                              <li class="mdc-list-item" role="menuitem">
+                                <span class="mdc-list-item__text">Another Menu Item</span>
+                              </li>
+                              <li class="mdc-list-item" role="menuitem">
+                                    <span class="mdc-list-item__text">Another Menu Item</span>
+                                  </li>
+                                  <li class="mdc-list-item" role="menuitem">
+                                        <span class="mdc-list-item__text">Another Menu Item</span>
+                                </li>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        
+
+        
+    </nav>
+</header>
 
     <section id="about-banner">
         <h2>Who We Are</h2>
@@ -48,15 +72,15 @@
 
     <section id="about-menu">
         <ul>
-            <a href="#target">
-                <li>Developers</li>
-            </a>
-            <a href="#target-2">
-                <li>Team</li>
-            </a>
-            <a href="#target-3">
-                <li>Project</li>
-            </a>
+            <li>
+                <a href="#target">Developers</a>
+            </li>
+            <li>
+                <a href="#target-2">Team</a>
+            </li>
+            <li>
+                <a href="#target-3">Project</a>
+            </li>
         </ul>
     </section>
 
