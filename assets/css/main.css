@@ -503,9 +503,6 @@ fieldset>div {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-    #nav-c h1 {
-        color: red;
-    }
     nav #nav-b ul {
         display: none;
     }
@@ -553,9 +550,6 @@ fieldset>div {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
-    #nav-c h1 {
-        color: blue;
-    }
     nav #nav-b ul {
         display: none;
     }
@@ -594,9 +588,6 @@ fieldset>div {
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-    #nav-a h1 {
-        color: green;
-    }
     .sidenav span {
         display: none;
     }
@@ -615,9 +606,6 @@ fieldset>div {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-    #nav-a h1 {
-        color: orange;
-    }
     #nav-b span {
         display: none;
     }
@@ -636,9 +624,6 @@ fieldset>div {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-    #nav-a h1 {
-        color: pink;
-    }
     #nav-b span {
         display: none;
     }
