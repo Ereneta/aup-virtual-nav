@@ -544,6 +544,11 @@ fieldset>div {
     #header-2 .feature-box {
         width: 100%;
     }
+    .feature-box h2, p {
+    justify-self: center;
+    text-align: center;
+    margin: 2px 15px;
+    }
 }
 
 
