@@ -566,6 +566,22 @@ footer img {
     #intro .text-box p {
         font-size: 1.3rem;
     }
+    #header-1 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box h2, p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .feature-box h2, p {
+    justify-self: center;
+    text-align: center;
+    margin: 2px 15px;
+    }
 }
 
 
@@ -583,6 +599,22 @@ footer img {
     /* ABOUT PAGE */
     #nav-a img {
         display: none;
+    }
+    #header-1 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box h2, p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .feature-box h2, p {
+    justify-self: center;
+    text-align: center;
+    margin: 2px 15px;
     }
 }
 
