@@ -478,6 +478,9 @@ footer img {
     #about-menu {
         font-size: 80%;
     }
+    #about-banner h2 {
+        font-size: 3rem;
+    }
     #dev-header h2 {
         font-size: 2.5rem;
     }
