@@ -298,8 +298,6 @@ footer {
     height: auto;
     background-color: whitesmoke;
     display: flex;
-    margin: 30px;
-    padding: 30px;
 }
 
 footer>div {

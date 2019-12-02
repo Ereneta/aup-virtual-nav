@@ -291,8 +291,13 @@ footer {
     background-color: whitesmoke;
     display: flex;
     position: absolute;
-    margin: 30px;
-    padding: 30px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 150px;
 }
 
 footer>div {
