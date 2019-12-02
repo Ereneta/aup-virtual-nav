@@ -581,48 +581,91 @@ fieldset>div {
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
     nav #nav-b ul {
         display: none;
     }
-    body {
-        background-color: #d7d7d7;
-        font-family: "Roboto";
-        min-height: 100vh;
+    #banner {
+        width: 100%;
+        height: 500px;
+        background-color: #143E90;
         display: flex;
+        position: relative;
         flex-direction: column;
         justify-content: center;
-    }
-    .viewport {
-        width: var(--screen-width);
-        height: var(--screen-height);
-        margin: 0 auto;
-        position: relative;
         overflow: hidden;
-        background-color: white;
     }
-    .header {
-        height: 5rem;
-        background-color: var(--header-bg-color);
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 4rem;
     }
-    .main {
-        padding: 20px;
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 3rem;
     }
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-        grid-auto-rows: 130px;
-        grid-gap: 20px;
+    #intro .text-box h2 {
+        font-size: 2rem;
     }
-    .gallery__item {
-        height: 100%;
-        background-color: #d8d8d8;
+    #intro .text-box p {
+        font-size: 1.2rem;
     }
-    .gallery__item:hover,
-    .gallery__item:focus {
-        background-color: #a4a4a4;
+    #header-1 {
+        flex-direction: column;
+    }
+    #header-2 {
+        flex-direction: column;
+    }
+    #header-1 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box h2,
+    p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .feature-box h2,
+    p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .dev-profile {
+        flex-direction: column;
+    }
+    #about-menu {
+        font-size: 80%;
+    }
+    #dev-header h2 {
+        font-size: 2.5rem;
+    }
+    .dev-row .dev-profile .prof-text h2 {
+        font-size: 90%;
+    }
+    .dev-row .dev-profile .prof-text h3 {
+        font-size: 90%;
+    }
+    .dev-row .dev-profile .prof-text p {
+        font-size: 90%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    nav #nav-b ul {
+        display: none;
+    }
+    .sidenav span {
+        display: inline;
     }
     #banner {
         width: 100%;
@@ -650,12 +693,6 @@ fieldset>div {
     #intro .text-box p {
         font-size: 1.3rem;
     }
-    #header-1 {
-        flex-direction: column;
-    }
-    #header-2 {
-        flex-direction: column;
-    }
     #header-1 .feature-box {
         width: 100%;
     }
@@ -677,18 +714,12 @@ fieldset>div {
     .feature-box img {
         margin: -6px 0px;
     }
-    .feature-box h2,
-    p {
-        justify-self: center;
-        text-align: center;
-        margin: 2px 15px;
-    }
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .sidenav span {
         display: none;
     }
@@ -701,30 +732,12 @@ fieldset>div {
     #nav-a img {
         display: none;
     }
-    #header-1 .feature-box {
-        width: 100%;
-    }
-    #header-2 .feature-box {
-        width: 100%;
-    }
-    #header-2 .feature-box h2,
-    p {
-        justify-self: center;
-        text-align: center;
-        margin: 2px 15px;
-    }
-    .feature-box h2,
-    p {
-        justify-self: center;
-        text-align: center;
-        margin: 2px 15px;
-    }
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
     #nav-b span {
         display: none;
     }
@@ -742,7 +755,7 @@ fieldset>div {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     #nav-b span {
         display: none;
     }
