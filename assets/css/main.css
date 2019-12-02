@@ -699,18 +699,6 @@ fieldset>div {
     #header-2 .feature-box {
         width: 100%;
     }
-    .feature-box h2,
-    p {
-        justify-self: center;
-        text-align: center;
-        margin: 2px 15px;
-    }
-    .feature-box p {
-        justify-self: center;
-        text-align: center;
-        margin: 2px 15px;
-        font-size: .8rem;
-    }
     .feature-box img {
         margin: -6px 0px;
     }
