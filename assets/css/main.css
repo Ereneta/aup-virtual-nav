@@ -66,15 +66,11 @@ nav {
     justify-content: flex-end;
 }
 
-#nav-b {
-    display: flex;
-    flex-direction: row;
-}
 
 #nav-b li {
     margin-left: 30px;
     margin-top: 0px;
-    width: 400px;
+
 }
 
 nav ul {
