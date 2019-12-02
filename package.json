@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.io/ereneta/aup-virtual-nav",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/ereneta/aup-virtual-nav/issues"
   },
-  "homepage": "https://github.com/ereneta/aup-virtual-nav#readme",
+ 
   "dependencies": {
     "gh-pages": "^2.1.1"
   }
