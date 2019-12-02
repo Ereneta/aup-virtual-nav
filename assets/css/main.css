@@ -1,0 +1,775 @@
+/* Body and html styles */
+
+html,
+body {
+    margin: 0;
+    font-family: 'Red Hat Text', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    overflow-x: hidden
+}
+
+
+/* Nav bar */
+
+nav {
+    height: 75px;
+    width: 100%;
+    background-color: goldenrod;
+    position: fixed;
+    opacity: 0.75;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    z-index: 1;
+}
+
+#nav-a {
+    display: flex;
+    width: 37%;
+    margin-left: 13%;
+}
+
+#nav-b span {
+    margin-right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    padding-top: 16px;
+}
+
+#nav-c {
+    display: flex;
+    margin-left: 13%;
+    width: 37%;
+}
+
+#nav-c span {
+    margin-right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    padding-top: 16px;
+}
+
+.mylogo {
+    width: 75px;
+    height: 75px;
+}
+
+
+/*for sidenav*/
+
+
+/*end of sidenav*/
+
+#nav-b {
+    display: flex;
+    width: 37%;
+    justify-content: flex-end;
+}
+
+
+#nav-b li {
+    margin-left: 30px;
+    margin-top: 0px;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul a {
+    list-style-type: none;
+    margin-right: 15px;
+    align-self: center;
+}
+
+nav ul li,
+nav h1 {
+    list-style-type: none;
+    align-self: center;
+}
+
+nav img {
+    margin-right: 15px;
+}
+
+nav a {
+    align-self: center;
+    color: white;
+    text-decoration: none;
+}
+
+.services {
+    margin-top: 27px;
+}
+
+
+/* Banner styles */
+
+#banner {
+    width: 100%;
+    height: 600px;
+    background-color: #143E90;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+#banner img {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+
+#banner h2 {
+    margin-left: 10%;
+    color: black;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#first-text-header {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 5rem;
+    z-index: 1;
+}
+
+#second-text-header {
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 4rem;
+    z-index: 1;
+}
+
+
+/* Introduction styles */
+
+#intro {
+    width: 100%;
+    height: 550px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: left;
+    padding: 15px 0px 15px 0px;
+    display: flex;
+}
+
+#intro h2 {
+    color: goldenrod;
+    font-size: 3rem;
+}
+
+#intro p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#intro div {
+    width: 30%;
+    margin-left: 13%;
+}
+
+#intro img {
+    height: 100%;
+    margin-left: auto;
+    margin-right: 13%;
+}
+
+
+/* Features styles */
+
+#service-header {
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    padding: 15px 0px 15px 0px;
+}
+
+#service-header h2 {
+    margin-top: 0px;
+    color: #433f40;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#header-1 {
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+#header-1 .feature-box {
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+#header-2 {
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 25px 0px;
+}
+
+#header-2 .feature-box {
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    margin-right: 15px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.feature-box img {
+    margin: 15px 0px;
+    width: 100%;
+    height: 50%;
+    ;
+}
+
+.feature-box h2,
+p {
+    justify-self: center;
+    text-align: center;
+    margin: 15px 15px;
+}
+
+
+/* Get app styles */
+
+#app-grab-header {
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+#app-grab-header h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #433f40;
+    display: none;
+}
+
+#app-grab {
+    width: 100%;
+    height: 100px;
+    background-color: gainsboro;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+#app-grab p {
+    margin-top: 0;
+}
+
+#app-grab>img {
+    height: 100%;
+    width: auto;
+}
+
+
+/* Footer styles */
+
+footer {
+    width: 91%;
+    background-color: whitesmoke;
+    display: flex;
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 150px;
+}
+
+footer>div {
+    margin-right: 5%;
+}
+
+footer img {
+    margin-left: 100px;
+}
+
+
+/* About page styles */
+
+
+/* About page banner styles */
+
+#about-banner {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("/assets/img/about-banner-opt.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about-banner h2 {
+    align-self: center;
+    font-size: 5rem;
+    color: white;
+}
+
+
+/* About page menu styles */
+
+#about-menu {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+#about-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    align-items: center;
+    height: 100%;
+}
+
+#about-menu ul a {
+    text-decoration: none;
+    color: white;
+    margin: 2.5%;
+}
+
+#about-menu ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+}
+
+.anchor a {
+    position: absolute;
+    left: 0px;
+    top: -115px;
+}
+
+.anchor {
+    position: relative;
+}
+
+
+/* Developer profile styles */
+
+#dev-header,
+#team-header,
+#project-header {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    color: goldenrod;
+    padding-left: 14%;
+}
+
+#dev-header h2,
+#team-header h2,
+#project-header h2 {
+    font-size: 3rem;
+}
+
+.dev-row {
+    width: 100%;
+    height: 350px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px 0px;
+}
+
+.dev-profile {
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.prof-img-container {
+    width: 25%;
+    height: 45%;
+    display: flex;
+    justify-content: start;
+}
+
+.prof-img-container img {
+    width: auto;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.prof-text {
+    width: 100%;
+    height: 100%;
+}
+
+.prof-text h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.prof-text h3,
+.prof-text p {
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.social-media-links {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-img {
+    height: 100%;
+    margin-right: 15px;
+}
+
+
+/* Team description styles */
+
+.description {
+    width: 75%;
+    padding-left: 14%;
+    margin-bottom: 5%;
+}
+
+.description p {
+    font-size: 1.5rem;
+}
+
+
+/* Contact form page styles */
+
+#form-header {
+    height: 100px;
+}
+
+#form-header p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 95px;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+
+/* Form styles */
+
+#contact-form {
+    height: auto;
+    color: black;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 100px;
+}
+
+textarea,
+input {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 1rem;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+}
+
+fieldset>div {
+    margin: 25px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    nav #nav-b ul {
+        display: none;
+    }
+    #banner {
+        width: 100%;
+        height: 500px;
+        background-color: #143E90;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 3rem;
+    }
+    #intro .text-box h2 {
+        font-size: 2rem;
+    }
+    #intro .text-box p {
+        font-size: 1.2rem;
+    }
+    #header-1 {
+        flex-direction: column;
+    }
+    #header-2 {
+        flex-direction: column;
+    }
+    #header-1 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box h2,
+    p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .feature-box h2,
+    p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .dev-profile {
+        flex-direction: column;
+    }
+    #about-menu {
+        font-size: 80%;
+    }
+    #dev-header h2 {
+        font-size: 2.5rem;
+    }
+    .dev-row .dev-profile .prof-text h2 {
+        font-size: 90%;
+    }
+    .dev-row .dev-profile .prof-text h3 {
+        font-size: 90%;
+    }
+    .dev-row .dev-profile .prof-text p {
+        font-size: 90%;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    nav #nav-b ul {
+        display: none;
+    }
+    #banner {
+        width: 100%;
+        height: 500px;
+        background-color: #143E90;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 3rem;
+    }
+    #intro .text-box h2 {
+        font-size: 2rem;
+    }
+    #intro .text-box p {
+        font-size: 1.2rem;
+    }
+    #header-1 {
+        flex-direction: column;
+    }
+    #header-2 {
+        flex-direction: column;
+    }
+    #header-1 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box h2,
+    p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .feature-box h2,
+    p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
+    }
+    .dev-profile {
+        flex-direction: column;
+    }
+    #about-menu {
+        font-size: 80%;
+    }
+    #dev-header h2 {
+        font-size: 2.5rem;
+    }
+    .dev-row .dev-profile .prof-text h2 {
+        font-size: 90%;
+    }
+    .dev-row .dev-profile .prof-text h3 {
+        font-size: 90%;
+    }
+    .dev-row .dev-profile .prof-text p {
+        font-size: 90%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    nav #nav-b ul {
+        display: none;
+    }
+    .sidenav span {
+        display: inline;
+    }
+    #banner {
+        width: 100%;
+        height: 500px;
+        background-color: #143E90;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 3rem;
+    }
+    #intro .text-box h2 {
+        font-size: 2.2rem;
+    }
+    #intro .text-box p {
+        font-size: 1.3rem;
+    }
+    #header-1 .feature-box {
+        width: 100%;
+    }
+    #header-2 .feature-box {
+        width: 100%;
+    }
+    .feature-box img {
+        margin: -6px 0px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .sidenav span {
+        display: none;
+    }
+    nav #nav-b ul {
+        display: flex;
+        width: 37%;
+        justify-content: flex-end;
+    }
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    #nav-b span {
+        display: none;
+    }
+    nav #nav-b ul {
+        display: flex;
+        width: 37%;
+        justify-content: flex-end;
+    }
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    #nav-b span {
+        display: none;
+    }
+    nav #nav-b ul {
+        display: flex;
+        width: 37%;
+        justify-content: flex-end;
+    }
+    #banner #first-text-header {
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 6rem;
+    }
+    #banner #second-text-header {
+        margin-left: 10%;
+        font-weight: lighter;
+        font-size: 5rem;
+    }
+    /* ABOUT PAGE */
+    #nav-a img {
+        display: none;
+    }
+}
