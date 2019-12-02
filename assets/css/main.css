@@ -624,8 +624,42 @@ fieldset>div {
     nav #nav-b ul {
         display: none;
     }
-    .sidenav span {
-        display: inline;
+    body {
+        background-color: #d7d7d7;
+        font-family: "Roboto";
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .viewport {
+        width: var(--screen-width);
+        height: var(--screen-height);
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        background-color: white;
+    }
+    .header {
+        height: 5rem;
+        background-color: var(--header-bg-color);
+    }
+    .main {
+        padding: 20px;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        grid-auto-rows: 130px;
+        grid-gap: 20px;
+    }
+    .gallery__item {
+        height: 100%;
+        background-color: #d8d8d8;
+    }
+    .gallery__item:hover,
+    .gallery__item:focus {
+        background-color: #a4a4a4;
     }
     #banner {
         width: 100%;
@@ -686,15 +720,17 @@ fieldset>div {
     #header-2 .feature-box {
         width: 100%;
     }
-    #header-2 .feature-box h2, p {
+    #header-2 .feature-box h2,
+    p {
         justify-self: center;
         text-align: center;
         margin: 2px 15px;
     }
-    .feature-box h2, p {
-    justify-self: center;
-    text-align: center;
-    margin: 2px 15px;
+    .feature-box h2,
+    p {
+        justify-self: center;
+        text-align: center;
+        margin: 2px 15px;
     }
 
     .feature-box img {	
